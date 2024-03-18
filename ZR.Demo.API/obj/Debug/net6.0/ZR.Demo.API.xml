@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZR.Demo.API</name>
+    </assembly>
+    <members>
+        <member name="M:ZR.Demo.API.Controllers.DefaultApiController.GetAll">
+            <summary>
+            GetAll the Employees in the Database
+            </summary>
+            <returns>A List of Employees</returns>
+        </member>
+        <member name="M:ZR.Demo.API.Controllers.DefaultApiController.CreateEmployee(ZR.Demo.Domains.Employee)">
+            <summary>
+            Create Employee
+            </summary>
+            <param name="Id">Guid</param>
+            <param name="FirstName">string</param>
+            <param name="LastName">string</param>
+            <param name="Age">int</param>
+            <param name="Gender">1 is Male and 2 is Female</param>
+            <returns>Employee</returns>
+        </member>
+        <member name="M:ZR.Demo.API.Controllers.DefaultApiController.UpdateEmployee(ZR.Demo.Domains.Employee)">
+            <summary>
+            Update Employee Recoard
+            </summary>
+            <param name="Id">Guid</param>
+            <param name="FirstName">string</param>
+            <param name="LastName">string</param>
+            <param name="Age">int</param>
+            <param name="Gender">1 is Male and 2 is Female</param>
+            <returns>Employee Data</returns>
+        </member>
+        <member name="M:ZR.Demo.API.Controllers.DefaultApiController.DeleteById(System.Nullable{System.Guid})">
+            <summary>
+            Delete Employee by GUID ID
+            </summary>
+            <param name="id">GUID</param>
+            <returns>StatusCode 200 if found and deleted</returns>
+        </member>
+        <member name="T:ZR.Demo.API.DataContract.InlineResponse201">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZR.Demo.API.DataContract.InlineResponse201.Id">
+            <summary>
+            Id of the created Employee.
+            </summary>
+            <value>Id of the created Object/Model.</value>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse201.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse201.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse201.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse201.Equals(ZR.Demo.API.DataContract.InlineResponse201)">
+            <summary>
+            Returns true if InlineResponse201 instances are equal
+            </summary>
+            <param name="other">Instance of InlineResponse201 to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse201.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="P:ZR.Demo.API.DataContract.InlineResponse400.Errors">
+            <summary>
+            Error messages
+            </summary>
+            <value>Error messages</value>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse400.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse400.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse400.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse400.Equals(ZR.Demo.API.DataContract.InlineResponse400)">
+            <summary>
+            Returns true if InlineResponse400 instances are equal
+            </summary>
+            <param name="other">Instance of InlineResponse400 to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:ZR.Demo.API.DataContract.InlineResponse400.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+    </members>
+</doc>

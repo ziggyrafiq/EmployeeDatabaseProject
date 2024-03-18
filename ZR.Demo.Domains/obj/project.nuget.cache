@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nP5ZvBsg10LgQI3L8CDxQWZ0+AwI5RGjh9OeesmBex3I0w+1pgkI/zVx36AIkGW7j8ze7pxzqvLvWrAEhznaWQ==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub\\ZR-Demo-Project-03\\ZR.Demo.Domains\\ZR.Demo.Domains.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ziggy\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

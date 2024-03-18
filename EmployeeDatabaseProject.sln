@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Demo.API", "ZR.Demo.API\ZR.Demo.API.csproj", "{BA56B03D-9D70-42F1-9D10-2701F6A1022B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{81CD5587-F4C6-4663-8F88-2D1781F6DF35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{48996911-1F21-465A-A61C-DC44FE0D559B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{3FD4BB57-B471-4A70-979F-E8CC89DD5CB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AEBCC8D5-0737-42CD-9B10-33E3EA43C8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{546A0687-7C9B-41B6-92CF-6D295248907C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6DC63A18-92B7-4818-A148-B352FA39AB52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Demo.Domains", "ZR.Demo.Domains\ZR.Demo.Domains.csproj", "{AF41D553-2B20-41AE-89B5-48C0E5106684}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Demo.Repositories", "ZR.Demo.Repositories\ZR.Demo.Repositories.csproj", "{E273EA9E-69F4-48AC-97C8-B4262055B3E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Demo.Services", "ZR.Demo.Services\ZR.Demo.Services.csproj", "{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Demo.UnitTest", "ZR.Demo.UnitTest\ZR.Demo.UnitTest.csproj", "{67510794-733C-42B1-9E15-5B7906658EE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F330C0D-E9BC-42D7-9130-32E06EC74356}"
+	ProjectSection(SolutionItems) = preProject
+		License.md = License.md
+		ReadMe.docx = ReadMe.docx
+		ReadMe.md = ReadMe.md
+		Requirements.md = Requirements.md
+		Requirments.docx = Requirments.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA56B03D-9D70-42F1-9D10-2701F6A1022B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA56B03D-9D70-42F1-9D10-2701F6A1022B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA56B03D-9D70-42F1-9D10-2701F6A1022B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA56B03D-9D70-42F1-9D10-2701F6A1022B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF41D553-2B20-41AE-89B5-48C0E5106684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF41D553-2B20-41AE-89B5-48C0E5106684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF41D553-2B20-41AE-89B5-48C0E5106684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF41D553-2B20-41AE-89B5-48C0E5106684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E273EA9E-69F4-48AC-97C8-B4262055B3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E273EA9E-69F4-48AC-97C8-B4262055B3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E273EA9E-69F4-48AC-97C8-B4262055B3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E273EA9E-69F4-48AC-97C8-B4262055B3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67510794-733C-42B1-9E15-5B7906658EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67510794-733C-42B1-9E15-5B7906658EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67510794-733C-42B1-9E15-5B7906658EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67510794-733C-42B1-9E15-5B7906658EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA56B03D-9D70-42F1-9D10-2701F6A1022B} = {6DC63A18-92B7-4818-A148-B352FA39AB52}
+		{AF41D553-2B20-41AE-89B5-48C0E5106684} = {81CD5587-F4C6-4663-8F88-2D1781F6DF35}
+		{E273EA9E-69F4-48AC-97C8-B4262055B3E9} = {3FD4BB57-B471-4A70-979F-E8CC89DD5CB3}
+		{42BBB3EB-6180-4B85-982C-DFFCF2F4B06F} = {AEBCC8D5-0737-42CD-9B10-33E3EA43C8AC}
+		{67510794-733C-42B1-9E15-5B7906658EE2} = {546A0687-7C9B-41B6-92CF-6D295248907C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0255DC8D-CE09-4111-BED2-4A88B8AC318A}
+	EndGlobalSection
+EndGlobal
